@@ -1,4 +1,4 @@
-package com.pavelsklenar;
+package com.sftp;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -27,11 +27,6 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.util.SocketUtils;
 import org.springframework.util.StreamUtils;
 
-/**
- * SFTP server for integration testing
- * @author Artem Bilan
- * @author pavel.sklenar
- */
 public class EmbeddedSftpServer implements InitializingBean, SmartLifecycle {
 
     public static final int PORT = SocketUtils.findAvailableTcpPort();

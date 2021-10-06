@@ -1,4 +1,4 @@
-package com.pavelsklenar;
+package com.sftp;
 
 import static org.junit.Assert.assertEquals;
 
@@ -20,7 +20,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.pavelsklenar.SftpConfig.UploadGateway;
+import com.sftp.SftpConfig.UploadGateway;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -1,4 +1,4 @@
-package com.pavelsklenar;
+package com.sftp;
 
 import java.io.File;
 
